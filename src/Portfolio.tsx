@@ -102,7 +102,7 @@ const Portfolio: React.FC = () => {
       </Grid>
 
       <Typography variant="h5" sx={{ mt: 4 }}>Contact</Typography>
-      <Typography>Email: nitin@example.com</Typography>
+      <Typography>Email: Pallavi Eraga Dindla@example.com</Typography>
       <a href="/resume.pdf" download>
         <Typography variant="body1" sx={{ mt: 2, display: 'inline-block' }}>
           Download Resume
