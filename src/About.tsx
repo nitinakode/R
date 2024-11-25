@@ -14,7 +14,7 @@ const About: React.FC = () => {
           React, Spring Boot, and RESTful APIs. My experience spans across designing user-friendly interfaces, building 
           robust backends, and collaborating with cross-functional teams to deliver high-quality solutions.
         </Typography>
-        <Typography sx={{ mt: 2 }}>
+       <Typography sx={{ mt: 2 }}>
           I am always eager to learn new technologies and improve my skills, making me adaptable to evolving project requirements.
           In my free time, I enjoy coding, reading about new tech trends, and playing cricket.
         </Typography>

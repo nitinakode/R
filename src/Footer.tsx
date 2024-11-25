@@ -13,14 +13,14 @@ const PersonalDetails: React.FC = () => {
           <Grid item xs={12} sm={6}>
             <Typography variant="h6" sx={{ display: 'flex', alignItems: 'center' }}>
               <Email sx={{ mr: 1, color: '#1976d2' }} /> Email:
-              <Link href="mailto:nitinakode@gmail.com" color="primary" sx={{ ml: 1 }}>
-                nitinakode@gmail.com
+              <Link href="mailto:pallavieraga27@gmail.com" color="primary" sx={{ ml: 1 }}>
+              pallavieraga27@gmail.com
               </Link>
             </Typography>
             <Typography variant="h6" sx={{ display: 'flex', alignItems: 'center', mt: 1 }}>
               <Phone sx={{ mr: 1, color: '#1976d2' }} /> Mobile:
-              <Link href="tel:+91 8885233399" color="primary" sx={{ ml: 1 }}>
-                +91 8885233399
+              <Link href="tel:+91 9154825243" color="primary" sx={{ ml: 1 }}>
+                +91 9154825243
               </Link>
             </Typography>
             <Typography variant="h6" sx={{ display: 'flex', alignItems: 'center', mt: 1 }}>
@@ -28,7 +28,7 @@ const PersonalDetails: React.FC = () => {
               <Typography sx={{ ml: 1 }}>Hyderabad, India</Typography>
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          {/* <Grid item xs={12} sm={6}>
             <Typography variant="h6">Connect with Me</Typography>
             <Grid container spacing={1}>
               <Grid item>
@@ -57,12 +57,12 @@ const PersonalDetails: React.FC = () => {
         </Link>
               </Grid>
             </Grid>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Paper>
 
       <Typography variant="body2" sx={{ mt: 2, textAlign: 'center', color: '#555' }}>
-        &copy; 2024 Nitin Akode
+        &copy; 2024 Pallavi Eraga Dindla
       </Typography>
     </Box>
   );

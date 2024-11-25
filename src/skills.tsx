@@ -2,9 +2,9 @@ import React from 'react';
 import { Typography, Box, Chip } from '@mui/material';
 
 const skills = {
-  programmingLanguages: ["Java", "TypeScript", "HTML", "CSS"],
-  frameworks: ["React", "Spring Boot", "Hibernate", "Spring MVC"],
-  tools: ["Docker", "Jenkins", "Kubernetes", "Postman"],
+  programmingLanguages: ["JavaScript", "HTML", "CSS"],
+  frameworks: ["React", "Bootstrap", "Material UI"],
+  tools: ["Visual Studio Code", "GitHub"],
   databases: ["MySQL", "PostgreSQL"],
   softSkills: ["Communication", "Teamwork", "Problem Solving", "Adaptability"]
 };

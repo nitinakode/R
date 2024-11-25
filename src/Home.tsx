@@ -3,7 +3,7 @@ import { Box, Typography, Button, Grid } from '@mui/material';
 import ProfilePic from './1.png'
 const Home: React.FC = () => {
   const handleResumeDownload = () => {
-    window.open('/Nitin_Akode_Java_Full_Stack_Developer.pdf', '_blank'); // Update with your actual resume path
+    window.open('/Pallavi_Eraga_Dindla.pdf', '_blank'); // Update with your actual resume path
   };
 
   return (
@@ -11,17 +11,17 @@ const Home: React.FC = () => {
       {/* Home Section */}
       <Grid container spacing={2} alignItems="center">
         <Grid item xs={12} md={6}>
-          <Typography variant="h3" sx={{ fontWeight: 'bold', color: '#3f51b5' }}>
-            Welcome to My Portfolio
-          </Typography>
-          <Typography variant="h5" sx={{ mt: 2, color: '#555' }}>
-            I'm Nitin Akode, a Java Full Stack Developer with a passion for building innovative web applications.
-          </Typography>
-          <Typography sx={{ mt: 2, color: '#777' }}>
-            With expertise in Java, Spring Boot, and React, I aim to create user-centric solutions that make a difference. 
-            Explore my work and let's connect!
-          </Typography>
-          <Button 
+        <Typography variant="h3" sx={{ fontWeight: 'bold', color: '#3f51b5' }}>
+  Welcome to My Portfolio
+</Typography>
+<Typography variant="h5" sx={{ mt: 2, color: '#555' }}>
+  I'm Pallavi Eraga Dindla, a Frontend Developer with a passion for creating dynamic and responsive web applications.
+</Typography>
+<Typography sx={{ mt: 2, color: '#777' }}>
+  With expertise in React.js, JavaScript, and UI frameworks like Bootstrap and Material UI, I focus on building user-friendly, impactful web solutions.
+  Explore my projects, including an eCommerce website, and let's connect!
+</Typography>
+ <Button 
             variant="contained" 
             color="primary" 
             sx={{ mt: 3 }} 

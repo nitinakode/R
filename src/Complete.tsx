@@ -2,7 +2,7 @@ import React from 'react';
 
 import {  Box } from '@mui/material';
 import About from './About';
-import Experience from './Experince';
+// import Experience from './Experince';
 import Footer from './Footer';
 
 import Home from './Home';
@@ -17,7 +17,7 @@ const Complete: React.FC = () => {
         <Home />
         <About />
         <Skills />
-        <Experience />
+        {/* <Experience /> */}
         <Projects />
         <Footer />
       </Box>
