@@ -12,7 +12,7 @@ const Header: React.FC = () => {
         <Button component={Link} to="/" color="inherit">Home</Button>
         <Button component={Link} to="/about" color="inherit">About</Button>
         <Button component={Link} to="/skills" color="inherit">Skills</Button>
-        <Button component={Link} to="/experience" color="inherit">Experience</Button>
+        {/* <Button component={Link} to="/experience" color="inherit">Experience</Button> */}
         <Button component={Link} to="/projects" color="inherit">Projects</Button>
       </Toolbar>
     </AppBar>
