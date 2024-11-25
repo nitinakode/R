@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, Link, Grid, Paper } from '@mui/material';
-import { Email, Phone, GitHub, LinkedIn, Language, Code } from '@mui/icons-material';
+import { Email, Language, Phone } from '@mui/icons-material';
 
 const PersonalDetails: React.FC = () => {
   return (
