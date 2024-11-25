@@ -8,16 +8,17 @@ const About: React.FC = () => {
       <Box sx={{ mt: 4 }}>
         
         <Typography variant="h4" gutterBottom>About Me</Typography>
-        <Typography>
-          I am a dedicated Full Stack Java Developer with a Bachelor of Technology in Electronics and Communication Engineering.
-          I have a strong background in developing scalable web applications using a variety of frameworks and tools, including 
-          React, Spring Boot, and RESTful APIs. My experience spans across designing user-friendly interfaces, building 
-          robust backends, and collaborating with cross-functional teams to deliver high-quality solutions.
-        </Typography>
-       <Typography sx={{ mt: 2 }}>
-          I am always eager to learn new technologies and improve my skills, making me adaptable to evolving project requirements.
-          In my free time, I enjoy coding, reading about new tech trends, and playing cricket.
-        </Typography>
+      <Typography>
+  I am a recent graduate and aspiring web developer with a strong foundation in frontend development. I am proficient in 
+  React.js and passionate about building dynamic, responsive web applications. I have experience working on personal 
+  projects such as a portfolio, an interactive quiz app, and an eCommerce website, where I developed features like 
+  product listings, cart management, and checkout functionality.
+</Typography>
+<Typography sx={{ mt: 2 }}>
+  I am eager to apply my skills in a professional setting, contribute to impactful web applications, and continuously 
+  learn and grow as a developer. I am always excited to take on new challenges and improve my abilities.
+</Typography>
+
       </Box>
     </Box>
     
